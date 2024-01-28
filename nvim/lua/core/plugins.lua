@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
   use 'zefei/vim-colortuner'
   use 'ntpeters/vim-better-whitespace'
   use 'vimwiki/vimwiki'
+  use 'fcpg/vim-farout'
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
   use {'christoomey/vim-tmux-navigator', lazy = false}
   use {'folke/noice.nvim', requires = 'MunifTanjim/nui.nvim'}
